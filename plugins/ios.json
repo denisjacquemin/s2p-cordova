@@ -12,6 +12,9 @@
         },
         "pushwoosh-cordova-plugin": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.dsjn.s2p"
         }
     },
     "dependent_plugins": {}
