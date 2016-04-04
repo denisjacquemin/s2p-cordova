@@ -21,8 +21,25 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
+
+    <!-- conf for imgcache.js https://github.com/chrisben/imgcache.js/blob/master/CORDOVA.md -->
+    <access origin="cdvfile://*" />
+    <allow-intent href="cdvfile://*" />
+    <preference name="iosPersistentFileLocation" value="Library" />
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="File">
+        <param name="ios-package" value="CDVFile" />
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="ios-package" value="CDVFileTransfer" />
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
 </widget>
