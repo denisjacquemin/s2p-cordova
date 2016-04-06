@@ -26,6 +26,7 @@
     <access origin="cdvfile://*" />
     <allow-intent href="cdvfile://*" />
     <preference name="iosPersistentFileLocation" value="Library" />
+    <preference name="BackupWebStorage" value="none" />
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
