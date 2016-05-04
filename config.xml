@@ -11,13 +11,15 @@
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <access origin="*.pushwoosh.com" />
+    <access origin="*://s2p-api-demo.herokuapp.com/*" />
+    <access origin="*://s2p-api.herokuapp.com/*" />
+    <allow-navigation href="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
     <preference name="DisallowOverscroll" value="true" />
+    <preference name="fullscreen" value="false" />
+    <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>

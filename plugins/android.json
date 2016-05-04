@@ -7,11 +7,11 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.dsjn.s2p"
         },
-        "pushwoosh-cordova-plugin": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.dsjn.s2p"
         }
     },
     "dependent_plugins": {}
